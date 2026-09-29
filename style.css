@@ -14,7 +14,7 @@
 .padre{
         margin:0px 68px ;
         height: 90vh;
-        background-color: rgb(141, 169, 199);
+        background-color: rgb(192, 235, 255);
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -37,26 +37,29 @@
    
 
 .hijo:nth-child(1){
-    font: 24px "DM Sans", sans-serif;
-    color: #18181a;
-    background-color:#ffffff;
+   /* font: 24px "DM Sans", sans-serif;
+    color: #18181a; */
+    background-color:transparent;
 }
 .hijo:nth-child(3){
-    background-color:#ffffff;
+    background-color:transparent;
+    font: 24px "DM Sans", sans-serif;
+    color: #4444a8;
    
 }
 .hijo:nth-child(2){
     font: 24px "DM Sans", sans-serif;
-    color: #4444a8;
-    background-color: #ffffff;
+    color: #18181a;
+    background-color: transparent;
 }
 .hijo:nth-child(5){
-    background-color: rgb(70, 226, 43);
+    background-color:transparent;
 }
 .hijo:nth-child(4){
     font: 14px "DM Sans", sans-serif;
-    color: #000000bf;
-    background-color: #ffffff;
+    /*color: #000000bf; */
+     color: #e20b0bbf;
+    background-color: transparent;
 }
 .hijo:nth-child(6){
     background-color: rgb(208, 43, 226);
